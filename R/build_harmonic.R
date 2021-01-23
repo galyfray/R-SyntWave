@@ -7,7 +7,7 @@
 
 
 build_harmonic <- function(spectre,base_note){
-  freq<-get_freq(baseNote)
+  freq<-get_freq(base_note)
   
   freq_max=spectre[[1]][length(spectre[[1]] )]
   
